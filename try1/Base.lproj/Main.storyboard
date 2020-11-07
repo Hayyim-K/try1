@@ -26,6 +26,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffk-r2-LLE">
                                         <rect key="frame" x="0.0" y="465" width="49" height="30"/>
                                         <state key="normal" title="Artur"/>
+                                        <connections>
+                                            <segue destination="DDR-Au-2QF" kind="show" id="yuh-se-L7H"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -41,6 +44,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="75.669642857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lMs-cu-acM">
+            <objects>
+                <viewController id="DDR-Au-2QF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DIW-9L-Z4C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="pJT-Wc-6JT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xE1-WP-9Ri"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USs-eO-ddw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="381"/>
         </scene>
     </scenes>
     <resources>
