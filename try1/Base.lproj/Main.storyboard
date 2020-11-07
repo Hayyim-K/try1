@@ -27,7 +27,7 @@
                                         <rect key="frame" x="0.0" y="465" width="49" height="30"/>
                                         <state key="normal" title="Artur"/>
                                         <connections>
-                                            <segue destination="DDR-Au-2QF" kind="show" id="yuh-se-L7H"/>
+                                            <segue destination="iEB-ft-myU" kind="show" id="iUG-iv-aCC"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -45,21 +45,15 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="lMs-cu-acM">
+        <!--Storyboard Reference-->
+        <scene sceneID="5xh-Fz-bg9">
             <objects>
-                <viewController id="DDR-Au-2QF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DIW-9L-Z4C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="pJT-Wc-6JT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="xE1-WP-9Ri"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="USs-eO-ddw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder id="iEB-ft-myU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="B57-W3-gxO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDt-0S-HMT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="900" y="381"/>
+            <point key="canvasLocation" x="736" y="216"/>
         </scene>
     </scenes>
     <resources>
